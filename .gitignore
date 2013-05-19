@@ -27,3 +27,8 @@ include/python2.6
 *.db
 .noseids
 nosetests.1
+
+# Other things of virtualenv
+/django_authopenid/
+/stats/
+/uwsgi_reload
