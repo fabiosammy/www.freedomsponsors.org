@@ -11,7 +11,7 @@ FS_FEE = Decimal('0.03')
 DEBUG = False
 FRESPO_PROJECT_ID = -1 # only needed for backwards compatibility with south patch 0008_set_isfeedback_true.py
 ADMINS = (
-    ('Admin', 'admin@freedomsponsors.org'),
+    ('Admin', 'fabiosammy@fabiosammy.com'),
     )
 
 TEMPLATE_DEBUG = DEBUG
@@ -27,8 +27,8 @@ GITHUB_BOT_USERNAME = 'freedomsponsors-bot'
 GITHUB_BOT_PASSWORD = '*********'
 
 SITE_PROTOCOL = 'http'
-SITE_HOST = 'www.freedomsponsors.org'
-SITE_NAME = 'FreedomSponsors'
+SITE_HOST = 'addons.fabiosammy.com'
+SITE_NAME = 'Teste do addons'
 SITE_HOME = SITE_PROTOCOL+'://'+SITE_HOST
 
 PAYPAL_USE_SANDBOX = False
@@ -60,7 +60,7 @@ TIME_ZONE = 'America/Sao_Paulo'
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'pt_BR'
 
 SITE_ID = 1
 
@@ -240,8 +240,8 @@ GOOGLE_OAUTH2_CLIENT_ID      = ''
 GOOGLE_OAUTH2_CLIENT_SECRET  = ''
 FOURSQUARE_CONSUMER_KEY      = ''
 FOURSQUARE_CONSUMER_SECRET   = ''
-GITHUB_APP_ID                = ''
-GITHUB_API_SECRET            = ''
+GITHUB_APP_ID                = '2c6b10ad52b740a51bb8'
+GITHUB_API_SECRET            = 'a8136106c95ec00bad511ca61ee7e11ed98ceded'
 DROPBOX_APP_ID               = ''
 DROPBOX_API_SECRET           = ''
 FLICKR_APP_ID                = ''
