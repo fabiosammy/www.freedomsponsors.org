@@ -4,12 +4,15 @@
 {% block topmiddle %}
           <!-- logo / slogan -->
           <div style="margin: 0 auto; width:600px;">
-            <div> <img src="/static/img/FS_horizontal_logo_colored_482.png"> </div>
+            <div style="text-align: center;"> 
+		<!-- <img src="/static/img/FS_horizontal_logo_colored_482.png"> -->
+		<img src="/static/img/FS_addons.png">
+	    </div>
             <div style="margin-top:30px">
               <span class="slogan">{% trans "Crowdfunding Free Software, one issue at a time" %}</span> 
             </div>
             <div>
-              <span class="introductionText">{% trans "Place money bounties for open source projects <strong>issues</strong>" %}. <a target="_about" href="http://blog.freedomsponsors.org/about">{% trans "Learn more..." %}</a></span>
+              <span class="introductionText">{% trans "Place money bounties for open source projects <strong>issues</strong>" %}. <a target="_blank" href="http://www.addons.com.br/forum/viewtopic.php?f=4&t=2">{% trans "Learn more..." %}</a></span>
             </div>
           </div>
 {% endblock %}
@@ -25,7 +28,7 @@
         <input type="hidden" name="operation" id="operation">
         <button id="btnSponsor" class="btn btn-primary ">{% trans "Sponsor &gt;&gt;" %}</button>
         <a id="btnKickstart" class="btn">{% trans "Propose &gt;&gt;" %}</a>
-        <i class="icon-question-sign icon-black popopo_stay" style="margin-top:3px;" rel="popover" data-content="Create an issue without an offer, just to draw everyone's attention to it. <a href='http://blog.freedomsponsors.org/kickstarting-issues/'>See more in the blog</a>!" data-original-title="What's propose?" data-placement="bottom"></i>
+        <i class="icon-question-sign icon-black popopo_stay" style="margin-top:3px;" rel="popover" data-content="Crie uma issue sem uma oferta em dinheiro, somente oferte uma proposta e chame a atenção de interessados. <br /> Create an issue without an offer, just to draw everyone's attention to it. " data-original-title="O que fazer de proposta?" data-placement="bottom"></i>
         <div class="btn-toolbar">
           <div class="btn-group pull-right">
           </div>
